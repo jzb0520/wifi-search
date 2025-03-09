@@ -154,7 +154,7 @@ function MainComponent() {
 
     try {
       console.log("APIリクエスト開始");
-      const response = await fetch("/api/fetch-internet-plans", {
+      const response = await fetch("https://www.create.xyz/sandbox/api/93aa01e8-993e-46c2-ad77-0c50958b14b1/fetch-internet-plans", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
